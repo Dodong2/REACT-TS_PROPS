@@ -1,0 +1,36 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+:root {
+    --bg: rgb(13, 19, 67);
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--bg);
+}
+.container {
+    display: grid;
+    place-items: center;
+    padding: 100px;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+}
+h1 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: var(--white);
+}
+
+button {
+    padding: 20px;
+}
