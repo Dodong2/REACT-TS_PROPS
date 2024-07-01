@@ -7,6 +7,7 @@ function App() {
   const Props1 = lazy(() => import('./page/Props1'))
   const Props2 = lazy(() => import('./page/Props2'))
   const Props3 = lazy(() => import('./page/Props3'))
+  const User = lazy(() => import('./page/User'))
 
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
      <Props1/>
      <Props2/>
      <Props3/>
+     <User/>
      </div>
      </Suspense>
     </>
